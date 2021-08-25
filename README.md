@@ -11,6 +11,8 @@ or in Linux/Mac:
 ## Requirements
 **Python version:** 3.6 or greater is optimal, but any Python 3 should do fine.                                   
 **Libraries:** base64, json, getpass, sys, os, pathlib, time, colorama, cryptography and pyfiglet.
+Use the command:
+```pip install -r requirements.txt```
 ## Features
 **Save and exit**: _allways_ use this option when exiting the program, if not, the json might not be encrypted and eventually it will crash.    
 **Add a credential**: Self explanatory.   
