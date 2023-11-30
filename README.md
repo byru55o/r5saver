@@ -1,6 +1,8 @@
 # r5saver
+## Disclaimer
+KeePassXC is better. But you can use this if you prefer a more minimal interactive cli experience (also sacrificing some security and usability).
 ## Introduction
-This is a password keeper which encrypts all your password and stores them in JSON for maximum organization. It works with the most reliable **SHA-256** algorithm by creating an **ultra-secure key**.   
+This is a password keeper which encrypts all your password and stores them in JSON for maximum organization. It works with the **SHA-256** algorithm by creating a key.   
 ## Quick guide              
 As easy as it gets, make sure the passwords are decrypted with the same program (**and salt**) that it was encrypted.    
 The program is very intuitive, so you won't have much trouble using it.   
@@ -14,7 +16,7 @@ or in Linux/Mac:
 Use the command:
 ```pip install -r requirements.txt```
 ## Features
-**Save and exit**: _allways_ use this option when exiting the program, if not, the json might not be encrypted and eventually it will crash.    
+**Save and exit**: _always_ use this option when exiting the program, if not, the json might not be encrypted and eventually it will crash.    
 **Add a credential**: Self explanatory.   
 **Remove a credential**: It is what it is, but it is important you specify the exact name of the credential.   
 **Search for a credential**: It will print out usernames and passwords of all the credentials that begin with your search.   
